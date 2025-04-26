@@ -1,11 +1,8 @@
 SENSAI - AI Career Coach
-
-Welcome to **SENSAI**, your intelligent career companion!  
-SENSAI is a full-stack AI-powered platform built with modern technologies like **Next.js**, **React**, **Tailwind CSS**, **Shadcn UI**, **Prisma**, **Clerk authentication**, and **Gemini AI (Flash 2.0)**. It is designed to empower users by offering advanced career-building tools, including a **Resume Builder**, **Cover Letter Generator**, and **Mock Interview Preparation** with AI-generated questions.
+Welcome to SENSAI, your intelligent career companion!
+SENSAI is a full-stack AI-powered platform built with modern technologies like Next.js, React, Tailwind CSS, Shadcn UI, Prisma, Clerk authentication, and Gemini AI (Flash 2.0). It is designed to empower users by offering advanced career-building tools, including a Resume Builder, Cover Letter Generator, and Mock Interview Preparation with AI-generated questions.
 
 Whether you're a student, a recent graduate, or a professional seeking to move ahead in your career, SENSAI is crafted to assist you with smart, personalized, and efficient career services.
-
----
 
 ## ✨ Project Highlights
 
