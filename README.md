@@ -1,31 +1,167 @@
-## AI Career Coach - Full Stack React Project
+SENSAI - AI Career Coach
 
-The **AI Career Coach** is a comprehensive full-stack web application designed to empower individuals in advancing their careers. Built with **Next.js**, **Tailwind CSS**, **Gemini AI**, **Prisma**, and **Shadcn UI**, this application offers a robust set of features, including a **resume builder**, **mock interview tests**, **cover letter generator**, and **industry insights**. The goal is to provide users with the tools and personalized guidance they need to succeed in their career journey.
+Welcome to **SENSAI**, your intelligent career companion!  
+SENSAI is a full-stack AI-powered platform built with modern technologies like **Next.js**, **React**, **Tailwind CSS**, **Shadcn UI**, **Prisma**, **Clerk authentication**, and **Gemini AI (Flash 2.0)**. It is designed to empower users by offering advanced career-building tools, including a **Resume Builder**, **Cover Letter Generator**, and **Mock Interview Preparation** with AI-generated questions.
 
-### Key Technologies:
+Whether you're a student, a recent graduate, or a professional seeking to move ahead in your career, SENSAI is crafted to assist you with smart, personalized, and efficient career services.
 
-- **Next.js**: At the core of this project is Next.js, a powerful React framework that supports server-side rendering (SSR) and static site generation (SSG). This ensures high performance and SEO-friendly pages, which is crucial for a platform that requires dynamic user input and feedback. Next.js also facilitates seamless routing and fast page transitions, making the overall user experience fluid and engaging.
+---
 
-- **Tailwind CSS**: For styling, the application uses **Tailwind CSS**, a utility-first CSS framework that promotes rapid development and ensures the application is responsive and customizable. Tailwind's flexibility allows for easy adjustments to the UI, ensuring that it looks great on all devices while maintaining a consistent and modern aesthetic.
+## ✨ Project Highlights
 
-- **Gemini AI**: The **Gemini AI** integration is at the heart of the personalized career coaching experience. This powerful AI model analyzes user data and provides insightful career guidance, including job recommendations, resume feedback, and mock interview tips. Gemini AI helps users optimize their career strategy based on current industry trends, skills, and professional goals.
+- **Next.js Full Stack App**: Built with the power of server-side rendering, API routes, and optimized performance.
+- **AI-Powered Content Generation**: Leverages Google's **Gemini AI (Flash 2.0)** for generating resumes, cover letters, and interview questions based on user input.
+- **Modern UI/UX**: Styled beautifully with **Tailwind CSS** and **Shadcn UI** components for a sleek, responsive, and accessible interface.
+- **Secure Authentication**: Integrates **Clerk** for seamless and secure user management (login, signup, profile).
+- **Database Management**: Uses **Prisma ORM** connected to a **PostgreSQL** database for efficient and scalable backend management.
+- **Mock Interview Practice**: Personalized interview questions generated dynamically to help users practice and prepare effectively.
+- **Resume Builder**: Guided, intuitive resume creation with Markdown support and instant PDF export.
+- **Cover Letter Generator**: Personalized cover letters tailored to user skills, experiences, and job roles.
+- **Responsive and Mobile-Friendly**: Fully optimized for desktops, tablets, and smartphones.
+- **Deployment Ready**: Configured for deployment on Vercel or any cloud hosting platform.
 
-- **Prisma**: **Prisma** is used as the ORM (Object-Relational Mapping) tool to interact with the PostgreSQL database, ensuring smooth and efficient data management. It helps store user profiles, resumes, cover letters, and mock interview results while enabling quick, type-safe queries.
+---
 
-- **Shadcn UI**: The application leverages **Shadcn UI**, a modern UI component library that simplifies the process of building accessible and responsive interfaces. Shadcn UI enhances the user experience by providing reusable components with a focus on usability, performance, and design consistency.
+## 🛠️ Tech Stack
 
-### Features:
+| Technology        | Role                                        |
+| ----------------- | ------------------------------------------- |
+| Next.js (React)    | Frontend and Backend (API Routes)           |
+| Tailwind CSS       | Styling and Responsive Design              |
+| Shadcn UI          | Pre-built, accessible, customizable UI     |
+| Clerk              | Authentication and User Management        |
+| Prisma ORM         | Database schema and interaction            |
+| PostgreSQL         | Relational Database                        |
+| Gemini AI (Flash 2.0) | AI Content and Interview Question Generation |
+| Vercel             | Deployment and Hosting                     |
 
-- **Resume Builder**: The AI Career Coach includes a **resume builder** that allows users to create, customize, and optimize their resumes with the help of AI-driven suggestions. This tool ensures that users' resumes are aligned with industry best practices and tailored to their career goals.
+---
 
-- **Mock Interview Tests**: The platform offers **mock interview tests**, where users can simulate real-world interview scenarios. These tests help users prepare for interviews by providing them with AI-powered feedback on their performance, allowing them to refine their responses and improve their interview skills.
+## 📚 Features Overview
 
-- **Cover Letter Generator**: Another essential feature is the **cover letter generator**, which uses AI to help users craft compelling and personalized cover letters for job applications. By entering basic details, users can quickly generate a professional cover letter that aligns with the job they are applying for.
+### 1. AI Resume Builder
+Create a professional and ATS-friendly resume quickly.  
+- **Form-based Input**: Collects information like education, work experience, skills, projects.
+- **Markdown Preview**: Live preview of the resume in Markdown format.
+- **PDF Export**: Export resumes easily using `html2pdf.js`.
+- **Smart Suggestions**: Gemini AI enhances entries with smart, job-ready phrases.
 
-- **Industry Insights**: The AI Career Coach provides valuable **industry insights**, including the latest trends, demand for specific skills, and job market analysis. Users can stay informed about the ever-changing job landscape, helping them make educated decisions about their career development.
+### 2. AI Cover Letter Generator
+Generate customized cover letters in seconds.  
+- **Position and Company-based Customization**: Users provide the role, company, and a few background details.
+- **Professional Tone**: Gemini AI structures the letter professionally.
+- **Editable Output**: Users can tweak, customize, and download the letter.
 
-### Purpose and Impact:
+### 3. Mock Interview Practice
+Prepare for interviews with realistic, AI-curated questions.  
+- **Industry and Role Specific**: Tailored questions based on user's target job/industry.
+- **Difficulty Level Adjustment**: Choose between beginner, intermediate, and advanced levels.
+- **Instant Feedback (Upcoming)**: Planned feature for giving feedback based on user answers.
 
-The **AI Career Coach** aims to be an all-in-one platform for career development, offering users a comprehensive suite of tools to enhance their job search and career growth. By integrating advanced technologies like Gemini AI, Prisma, and modern UI frameworks, this project provides a seamless, personalized, and highly interactive user experience. Whether it's building an optimized resume, preparing for a mock interview, generating a tailored cover letter, or gaining valuable industry insights, the AI Career Coach equips users with the resources they need to take control of their careers and succeed in a competitive job market.
+### 4. Authentication
+Secure sign-up/login with:
+- Social auth (Google, GitHub)
+- Email/password login
+- Session management via Clerk.
 
-This project highlights the potential of combining AI with full-stack development to create impactful solutions that can guide individuals toward their professional goals. It demonstrates how technology can be used not only to improve efficiency but also to provide valuable, personalized advice that makes a tangible difference in users' lives.
+### 5. User Dashboard
+A centralized place to manage:
+- Resumes
+- Cover Letters
+- Saved Interview Questions
+- User Profile Settings
+
+---
+
+## 🏗️ Architecture Overview
+
+- **Frontend**: Built with **Next.js** pages and API routes, uses React components from **Shadcn UI** styled with **Tailwind**. Pages dynamically fetch data from the backend.
+- **Backend**: API routes in Next.js handle resume generation, cover letter generation, and mock interview question fetching.
+- **Database**: **PostgreSQL** accessed via **Prisma** for storing user data, resumes, and histories.
+- **AI Integration**: Communicates with Gemini AI API endpoints to generate text-based outputs.
+- **Authentication**: Managed entirely via **Clerk**, ensuring security and scalability.
+- **Deployment**: Designed for seamless deployment on **Vercel**, but adaptable to AWS, Railway, or other platforms.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- PostgreSQL Database
+- Gemini API Key
+- Clerk Project Setup
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/sensai-ai-career-coach.git
+cd sensai-ai-career-coach
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+pnpm install
+```
+
+3. Configure your environment variables (`.env.local`)
+
+```plaintext
+DATABASE_URL=your_postgres_database_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+GEMINI_API_KEY=your_gemini_api_key
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
+
+4. Run Prisma migrations
+```bash
+npx prisma migrate dev
+```
+
+5. Start the development server
+```bash
+npm run dev
+# or
+pnpm dev
+```
+
+---
+
+## 📈 Roadmap
+
+- [x] Resume Builder MVP
+- [x] Cover Letter Generator
+- [x] Mock Interview Question Generator
+- [x] Clerk Authentication
+- [x] User Dashboard
+- [ ] Interview Answer Feedback (AI Evaluation)
+- [ ] Advanced Resume Templates
+- [ ] Job Description Analyzer
+- [ ] LinkedIn Profile Review Automation
+- [ ] Career Progress Tracker
+
+---
+
+## 🤝 Contribution
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repo and submit a pull request. Let's build the future of AI-assisted career coaching together!
+
+If you find this project useful, don't forget to **star ⭐ the repo**!
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more information.
+
+---
+
+Let's connect and grow together!
+
