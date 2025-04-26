@@ -1,8 +1,15 @@
-SENSAI - AI Career Coach
-Welcome to SENSAI, your intelligent career companion!
-SENSAI is a full-stack AI-powered platform built with modern technologies like Next.js, React, Tailwind CSS, Shadcn UI, Prisma, Clerk authentication, and Gemini AI (Flash 2.0). It is designed to empower users by offering advanced career-building tools, including a Resume Builder, Cover Letter Generator, and Mock Interview Preparation with AI-generated questions.
+
+
+---
+
+# SENSAI - AI Career Coach
+
+Welcome to **SENSAI**, your intelligent career companion!  
+SENSAI is a full-stack AI-powered platform built with modern technologies like **Next.js**, **React**, **Tailwind CSS**, **Shadcn UI**, **Prisma**, **Clerk authentication**, and **Gemini AI (Flash 2.0)**. It is designed to empower users by offering advanced career-building tools, including a **Resume Builder**, **Cover Letter Generator**, and **Mock Interview Preparation** with AI-generated questions.
 
 Whether you're a student, a recent graduate, or a professional seeking to move ahead in your career, SENSAI is crafted to assist you with smart, personalized, and efficient career services.
+
+---
 
 ## ✨ Project Highlights
 
@@ -151,14 +158,18 @@ Feel free to fork the repo and submit a pull request. Let's build the future of 
 
 If you find this project useful, don't forget to **star ⭐ the repo**!
 
----
+
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for more information.
 
----
+
+
+## 💬 Connect
+
+- **LinkedIn**: [Piyush Shrivastava]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/piyush-shrivastava-71a954253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba42wQZlwTjSsOMqwWcfs7Q%3D%3D))
+- **Email**:piyushshrivastava76@gmail.com
 
 Let's connect and grow together!
-
