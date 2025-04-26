@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import CoverLetterList from "./_components/cover-letter-list";
 import { getCoverLetters } from "@/actions/cover-letter";
 
+
 export default async function CoverLetterPage() {
   const coverLetters = await getCoverLetters();
   return (

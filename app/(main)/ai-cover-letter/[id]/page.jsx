@@ -4,9 +4,13 @@ import { Button } from "@/components/ui/button";
 import { getCoverLetter } from "@/actions/cover-letter";
 import CoverLetterPreview from "../_components/cover-letter-preview";
 
+// Use getServerSideProps to fetch data server-side for dynamic routes
 export default async function EditCoverLetterPage({ params }) {
-  const { id } = await params;
+  const { id } = params; // Destructure id directly from params
+
+  // Fetch the cover letter based on the id
   const coverLetter = await getCoverLetter(id);
+
   return (
     <div className="container mx-auto py-6">
       <div className="flex flex-col space-y-2">
