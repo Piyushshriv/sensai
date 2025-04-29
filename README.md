@@ -169,7 +169,7 @@ See the [LICENSE](LICENSE) file for more information.
 
 ## 💬 Connect
 
-- **LinkedIn**: [Piyush Shrivastava]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/piyush-shrivastava-71a954253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba42wQZlwTjSsOMqwWcfs7Q%3D%3D))
+- **LinkedIn**:https://www.linkedin.com/in/piyush-shrivastava-71a954253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba42wQZlwTjSsOMqwWcfs7Q%3D%3D
 - **Email**:piyushshrivastava76@gmail.com
 
 Let's connect and grow together!
